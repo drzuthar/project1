@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
         <link rel="stylesheet" href="./assets/style.css">
-        <script rel="script.js" defer></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="./assets/script.js" defer></script>
         <title>Reptile1</title>
     </head>
     <body>
@@ -42,21 +43,15 @@
         </div>
 
     <div class="search-bar">
-        <label for="search">Search for reptiles here!</label>
-        <input type="search" id="search">
-    </div>
-
-<div class="reptile-cards"></div>
-<template data-user-template>
-    <div class="card">
-        <div class="header" data-header></div>
-        <div class="body" data-body ></div>
-    </div>
-</template>
+        <label for="searchInput">Search for reptiles on Wikipedia:</label>
+        <input type="search" id="searchInput">
+        <button onclick="searchWikipedia()">Search</button>
+        <div id="searchResults"></div>
+      </div>
+    </nav>
 
 </nav>
 </body>
-<script src="./assets/script.js"></script>
 
 
 

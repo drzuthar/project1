@@ -1,4 +1,9 @@
 
+// localStorage.setItem("wikiSearch", searchWikipedia);
+// localStorage.getItem ("wikiSearch");
+// console.log(localStorage) This was my effort at getting the information from the Wiki search to stay in the local storage or console log but I couldnt figure out how to define the "wikiData" im 
+//not sure if thats an issue on my end or wikipedias either as I dont have anything in our code called wikidata which now that I think about it maybe I should
+
 function searchWikipedia() {
     const searchTerm = document.getElementById('searchInput').value;
     const apiUrl = `https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=${searchTerm}&callback=?`;
@@ -19,7 +24,6 @@ function searchWikipedia() {
     const searchResultsContainer = document.getElementById('searchResults');
     searchResultsContainer.innerHTML = '';
 
-
     results.forEach(result => {
       const resultElement = document.createElement('div');
       resultElement.innerHTML = `
@@ -32,7 +36,8 @@ function searchWikipedia() {
   }
 
 
-  
+
+
 
 function searchYouTube() {
     const searchTerm = document.getElementById('searchInput').value;

@@ -1,0 +1,36 @@
+.navbar-image{
+    height: 140px;
+    width: 200px;
+    margin: 20px;
+}
+.navbar-brand{
+    background-color: forestgreen;
+}
+.navbar{
+    background-color: rgb(222, 250, 155);
+}
+h1{
+    flex-wrap: wrap;
+    font-size: x-large;
+    color: brown;
+}
+.yt-bar{
+    color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: larger;
+    justify-content: space-around;
+}
+.wiki-bar{
+    color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: larger;
+    justify-content: space-around;
+    
+}
+body {
+    background-image: url('https://wallpapercave.com/wp/WUi28PO.jpg');
+  }

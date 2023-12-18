@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
          initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
-        <link rel="stylesheet" href="./assets/style.css">
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-        <script src="./assets/script.js" defer></script>
-        <title>Reptile1</title>
-    </head>
-    <body>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-image" href="https://www.nationalgeographic.com/animals/reptiles">
-                    <img src="https://reptilesmagazine.com/wp-content/uploads/2022/02/tokay-Kurit-afshen.jpg">
-                </a>
-                
-            
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./assets/script.js" defer></script>
+    <title>Reptile1</title>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-image" href="https://www.nationalgeographic.com/animals/reptiles">
+                <img src="https://reptilesmagazine.com/wp-content/uploads/2022/02/tokay-Kurit-afshen.jpg">
+            </a>
+
+
             </a>
         </div>
-        
-  <div>
-    <h1>Welcome to our reptile catalogue!</h1>
-  </div>
-</nav>
-</nav>
 
-<div class="search-bar">
-        <label for="searchInput">Search for reptiles on Wikipedia:</label>
-        <input type="search" id="searchInput">
-        <button onclick="searchWikipedia()">Search</button>
-        <div id="searchResults"></div>
-      </div>
+        <div>
+            <h1>Welcome to our reptile catalogue!</h1>
+        </div>
 
-<div class="search-bar">
-    <label for="searchInput">Search for reptiles on YouTube:</label>
-    <input type="search" id="searchInput"&>
-    <button onclick="searchYouTube()">Search</button>
-    <div id="searchResults"></div>
-</div>
+
+        <h2>
+            <nav class="wiki-bar">
+                <label for="searchInput">Search for reptiles on Wikipedia:</label>
+                <input type="search" id="searchInput">
+                <button onclick="searchWikipedia()">Search</button>
+                <div id="searchResults"></div>
+            </nav>
+
+            <nav class="yt-bar">
+                <label for="searchInput">Search for reptiles on YouTube:</label>
+                <input type="search" id="searchInput" &>
+                <button onclick="searchYouTube()">Search</button>
+                <div id="searchResults"></div>
+            </nav>
+        </h2>
+</body>
 
 </html>

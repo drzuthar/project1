@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Reptile1</title>
-</head>
-<body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="https://www.nationalgeographic.com/animals/reptiles">
-                <img src="https://reptilesmagazine.com/wp-content/uploads/2022/02/tokay-Kurit-afshen.jpg" width="150" height="200">
-            </a>
-
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+        <link rel="stylesheet" href="./assets/style.css">
+        <script rel="script.js" defer></script>
+        <title>Reptile1</title>
+    </head>
+    <body>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://www.nationalgeographic.com/animals/reptiles">
+                    <img src="https://reptilesmagazine.com/wp-content/uploads/2022/02/tokay-Kurit-afshen.jpg" width="150" height="200">
+                </a>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
                 data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
             </a>
         </div>
-
+        
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
                 <a class="navbar-item">
                     Home
                 </a>
-
+                
                 <a class="navbar-item">
                     Documentation
                 </a>
-
+                
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">
-                        </a>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
-    </nav>
+
+    <div class="search-bar">
+        <label for="search">Search for reptiles here!</label>
+        <input type="search" id="search">
+    </div>
+
+<div class="reptile-cards"></div>
+<template data-user-template>
+    <div class="card">
+        <div class="header" data-header></div>
+        <div class="body" data-body ></div>
+    </div>
+</template>
+
+</nav>
 </body>
-<script src="./assets/sciprt.js"></script>
+<script src="./assets/script.js"></script>
+
+
 
 </html>

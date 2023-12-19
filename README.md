@@ -76,6 +76,7 @@ Work in your group to implement the following user stories:
 ## Sample Page
 
 deployed link: https://drzuthar.github.io/project1/
+
 create a webpage about reptiles.
 
 create a web application using HTML, CSS, and Javascript to inform the user about reptile and give easy access to resources abut reptiles.
